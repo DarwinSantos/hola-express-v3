@@ -6,7 +6,7 @@ app.get('/saludo', c_saludo);
 
 
 function c_inicio(req,res){
-    res.send("<h1>Indez en Express </h1>")
+    res.send("<h1>Index en Express </h1>")
 }
 
 function c_saludo(req,res){
